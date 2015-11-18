@@ -14,7 +14,7 @@
       "npm-plus:toggle"
     ]
   },
-  "repository": "https://github.com/atom/npm-plus",
+  "repository": "https://github.com/jussi-kalliokoski/atom-npm-plus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
