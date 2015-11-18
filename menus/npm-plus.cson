@@ -1,0 +1,22 @@
+"menu": [
+  {
+    "label": "Packages"
+    "submenu": [
+      "label": "npm-plus"
+      "submenu": [
+            {
+              "label": "Build (npm install)"
+              "command": "npm-plus:build"
+            }
+            {
+              "label": "Run Tests (npm test)"
+              "command": "npm-plus:test"
+            }
+            {
+              "label": "Toggle Npm Plus"
+              "command": "npm-plus:toggle"
+            }
+      ]
+    ]
+  }
+]
