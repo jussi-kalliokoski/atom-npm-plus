@@ -13,6 +13,18 @@
               "command": "npm-plus:test"
             }
             {
+              "label": "Start Application (npm start)"
+              "command": "npm-plus:start"
+            }
+            {
+              "label": "Stop Application (npm stop)"
+              "command": "npm-plus:stop"
+            }
+            {
+              "label": "Restart Application (npm restart)"
+              "command": "npm-plus:restart"
+            }
+            {
               "label": "Toggle Npm Plus"
               "command": "npm-plus:toggle"
             }

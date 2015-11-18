@@ -11,6 +11,9 @@
     "atom-workspace": [
       "npm-plus:install",
       "npm-plus:test",
+      "npm-plus:start",
+      "npm-plus:stop",
+      "npm-plus:restart",
       "npm-plus:toggle"
     ]
   },
