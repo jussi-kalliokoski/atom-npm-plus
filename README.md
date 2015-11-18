@@ -9,3 +9,7 @@ npm integration for atom.
 Npm plus allows you running `npm install` and `npm test` from your editor:
 
 ![npm-plus-test-install](https://cloud.githubusercontent.com/assets/547186/11247055/26d4d60e-8e23-11e5-86ca-42831c56606d.gif)
+
+### Start / stop / restart application
+
+The built in npm commands `npm start`, `npm stop` and `npm restart` are supported.
