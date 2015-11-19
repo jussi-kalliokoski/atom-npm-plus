@@ -1,7 +1,7 @@
 {
   "name": "npm-plus",
   "main": "./lib/npm-plus",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "npm integration for atom",
   "keywords": [],
   "scripts": {
