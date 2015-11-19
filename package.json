@@ -2,7 +2,7 @@
   "name": "npm-plus",
   "main": "./lib/npm-plus",
   "version": "0.3.0",
-  "description": "A short description of your package",
+  "description": "npm integration for atom",
   "keywords": [],
   "scripts": {
     "test": "true"
