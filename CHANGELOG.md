@@ -12,3 +12,7 @@
 ## 0.3.0 - Third Release
 
 - Fixed STDERR output.
+
+### 0.4.0 - Fourth Release
+
+- Added minimal windows support.
