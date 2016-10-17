@@ -14,7 +14,8 @@
       "npm-plus:start",
       "npm-plus:stop",
       "npm-plus:restart",
-      "npm-plus:toggle"
+      "npm-plus:toggle",
+      "npm-plus:run"
     ]
   },
   "repository": "https://github.com/jussi-kalliokoski/atom-npm-plus",

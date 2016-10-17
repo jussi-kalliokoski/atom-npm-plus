@@ -28,6 +28,10 @@
               "label": "Toggle Npm Plus"
               "command": "npm-plus:toggle"
             }
+            {
+              "label": "Run - detect scripts"
+              "command": "npm-plus:run"
+            }
       ]
     ]
   }
