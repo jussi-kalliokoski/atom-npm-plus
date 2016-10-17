@@ -13,3 +13,8 @@ Npm plus allows you running `npm install` and `npm test` from your editor:
 ### Start / stop / restart application
 
 The built in npm commands `npm start`, `npm stop` and `npm restart` are supported.
+
+### nmp Run Script support
+
+Execute Npm Plus Run command from the command palette. This will analyze your package.json file and inserts new Npm Plus command for each script available in the package.json file. Then execute the script from the command palette as usualy.
+
