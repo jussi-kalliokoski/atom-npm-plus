@@ -12,7 +12,10 @@ function getPackageDir () {
         if (file) {
             var filepath = file.path;
             pathinfo = atom.project.relativizePath(filepath);
-            return pathinfo[0];
+            jsonpath = join(pathinfo[0], PACKAGE_JSON_FILENAME);
+            if (isPackageJson(jsonpath)) {
+                return pathinfo[0];
+            }
         }
     }
 
