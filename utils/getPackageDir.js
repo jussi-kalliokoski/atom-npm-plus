@@ -5,6 +5,17 @@ import isPackageJson from "./isPackageJson";
 const PACKAGE_JSON_FILENAME = "package.json";
 
 function getPackageDir () {
+    // Check active file's project root first
+    var editor = atom.workspace.getActivePaneItem();
+    if (editor) {
+        var file = editor.buffer.file;
+        if (file) {
+            var filepath = file.path;
+            pathinfo = atom.project.relativizePath(filepath);
+            return pathinfo[0];
+        }
+    }
+
     const projectPaths = atom.project.getPaths();
 
     for ( path of projectPaths ) {
